@@ -3,7 +3,7 @@
   <div class="card modal-content">
     <div class="modal-okno">
       <div class="modal-left">
-        <img :src="'http://director-kab.ru.local/' + product.img" class="product-img" alt="">
+        <img :src="product.img" class="product-img" alt="">
         <h6>{{product.title}}</h6>
         <p class="modal-price">{{product.price}} рублей</p>
       </div>
